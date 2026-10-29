@@ -24,7 +24,7 @@ python src/main.py
 
 # SUITE DE L'ENTRETIEN
 
-J'aurais continué d'implémenter la logique du fonctionnement, mettre
+J'aurais continué d'implémenter la logique du fonctionnement, mettre en place les briques d'analyse et synthèse de l'entretien, boucler sur le contenu des règles dans le JSON. des documents plus longs auraient exigé les briques de chunking, et vectorisation (ChromaDB pour un projet local par exemple), puis une brique retrieval et finalement complétion.
 
 le résultat serait stocké dans le dossier 'results/'
 
