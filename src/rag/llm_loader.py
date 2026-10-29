@@ -20,7 +20,7 @@ class LLMHelper:
             model_path: The absolute path of the model
         """
         self.model = Llama(
-            model_path=model_path,
+            model_path=str(model_path),
             verbose=False,
             n_ctx=1024    # subject to change
         )
