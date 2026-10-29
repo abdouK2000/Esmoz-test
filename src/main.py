@@ -15,10 +15,12 @@ def run_process():
     Returns:
 
     """
-    print("Assurez vous que le contenu du dossier data est cle souhaitable")
+    print("Assurez vous que le contenu du dossier data est le souhaitable")
     if not input("Tapez ENTREE pour lancer l'application:"):
 
         pass # define function calls from other modules
+        # if there is data to process, for every entretien, perform analysis
+        # save results to results/
 
     return
 
